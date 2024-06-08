@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """ Function that compress a folder """
 from datetime import datetime
-from fabric import local
+from fabric.operations import local
 import os
 
 
