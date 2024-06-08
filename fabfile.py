@@ -1,4 +1,4 @@
-from fabric.api import local, run, put, env
+from fabric import Connection
 from datetime import datetime
 from os.path import exists, isdir
 
